@@ -1,0 +1,330 @@
+{
+  "id": "b6dcb3e5-9845-4679-9145-c7d70efc4d15",
+  "version": "2.0",
+  "name": "ProjectForBetrootAcademySeleniumIDE",
+  "url": "https://balka-book.com/ua/",
+  "tests": [{
+    "id": "90b3a8ef-7995-4b85-9dba-461cc1615110",
+    "name": "Checking nav menu",
+    "commands": [{
+      "id": "bbb72f75-4091-4878-be74-19f07194781e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f228b00-de19-4fe1-b443-13b418913a1f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Акції')]",
+      "targets": [
+        ["linkText=Акції", "linkText"],
+        ["css=.wrap > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Акції')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://balka-book.com/ua/promo')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акції')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "519accfc-3db5-4938-84b3-9f23cb647be8",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"page\"]/main/div[1]/div/div/h1",
+      "targets": [],
+      "value": "Акції"
+    }, {
+      "id": "f43281ef-31ca-4b1a-ac9c-5acd1896b50f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"header\"]/div[2]/nav/ul/li[2]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3440bcc-5a94-4152-9cab-7fdc723f587e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"page\"]/main/div/div/div/h1",
+      "targets": [],
+      "value": "Про компанію"
+    }, {
+      "id": "ace7148f-c41f-4696-8713-3b1746dbec88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrap > ul > li:nth-child(4) > a",
+      "targets": [
+        ["linkText=Контакти", "linkText"],
+        ["css=.wrap > ul > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Контакти')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://balka-book.com/ua/kontaktyi-676')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Контакти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c75f58b6-d851-4135-a8fe-d5b3e340654b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.main-title",
+      "targets": [
+        ["css=.main-title", "css:finder"],
+        ["xpath=//div[@id='page']/main/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Контакти')]", "xpath:innerText"]
+      ],
+      "value": "Контакти"
+    }, {
+      "id": "1018afc2-fc43-44a7-a0f6-391b7d1ea74f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Питання та відповіді",
+      "targets": [
+        ["linkText=Питання та відповіді", "linkText"],
+        ["css=.wrap > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Питання та відповіді')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://balka-book.com/ua/faq')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Питання та відповіді')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25743874-ecb8-478a-8f93-60a12dd71440",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.main-title",
+      "targets": [
+        ["css=.main-title", "css:finder"],
+        ["xpath=//div[@id='page']/main/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Питання та відповіді')]", "xpath:innerText"]
+      ],
+      "value": "Питання та відповіді"
+    }, {
+      "id": "8fd48690-ca2e-44cf-b672-6074a6478002",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Подарункові сертифікати",
+      "targets": [
+        ["linkText=Подарункові сертифікати", "linkText"],
+        ["css=.wrap > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Подарункові сертифікати')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://balka-book.com/ua/certificates')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Подарункові сертифікати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55c019f5-bca4-4a77-b7b6-a1fc024a2b03",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.main-title",
+      "targets": [
+        ["css=.main-title", "css:finder"],
+        ["xpath=//div[@id='page']/main/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Подарункові сертифікати')]", "xpath:innerText"]
+      ],
+      "value": "Подарункові сертифікати"
+    }]
+  }, {
+    "id": "de71665d-bf5b-41ce-830a-fe24db2168db",
+    "name": "Checking the SEARCH textfield",
+    "commands": [{
+      "id": "b563b86a-d306-4e2f-b252-f8628ce7057e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40ca3b85-57f4-4992-8ee3-44cca0319f4e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='']",
+      "targets": [
+        ["css=.search > input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div[3]/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60475c48-1d2e-498e-b25a-81e695357ae0",
+      "comment": "",
+      "command": "store",
+      "target": "Грокаем алгоритмы искусственного интеллекта",
+      "targets": [],
+      "value": "bookname"
+    }, {
+      "id": "2770df7c-53df-4653-ba4f-c7722d11bd13",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search > input",
+      "targets": [
+        ["css=.search > input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div[3]/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${bookname}"
+    }, {
+      "id": "269dbcaf-4816-42fc-a895-c07f51fc3160",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrap > .butt1",
+      "targets": [
+        ["css=.wrap > .butt1", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a94dd770-de0e-4357-a1cf-a32b3c1d8e99",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Грокаем алгоритмы искусственного интеллекта",
+      "targets": [
+        ["linkText=Грокаем алгоритмы искусственного интеллекта", "linkText"],
+        ["css=.kExist > .name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Грокаем алгоритмы искусственного интеллекта')]", "xpath:link"],
+        ["xpath=//ul[@id='topicgoods']/li/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://balka-book.com/teoriya_programmirovaniya-134/grokaem-algoritmyi-iskusstvennogo-intellekta-240664')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Грокаем алгоритмы искусственного интеллекта')]", "xpath:innerText"]
+      ],
+      "value": "${bookname}"
+    }]
+  }, {
+    "id": "8c20dc20-9d4b-4344-a46d-8871134c2d74",
+    "name": "cheking nav menu in header",
+    "commands": [{
+      "id": "69180f6a-7d3d-4bdc-bfbf-16d1bf10ab57",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6612e807-dff4-451d-9ac6-f27fa98e8eca",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.topbar .logo",
+      "targets": [
+        ["css=.topbar .logo", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://balka-book.com/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4537a82-931e-4255-ae8d-96b35fe516c0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//header[@id='header']/div/div/div/ul",
+      "targets": [
+        ["css=.socials", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/ul", "xpath:idRelative"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb883c16-31d6-4357-881e-e4ca2b2bb2a8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.socials",
+      "targets": [
+        ["css=.socials", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/ul", "xpath:idRelative"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bf448a6-e4bc-438b-aa75-ff87899eabd2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//header[@id='header']/div/div/div/a",
+      "targets": [
+        ["css=.wl", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://balka-book.com/?base=client&action=wishlist')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f231e92-ef6d-4d41-8d5b-f2d37fe60b70",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.client",
+      "targets": [
+        ["css=.client", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b084cc86-c4bf-46d6-8fea-06dcd7096dc4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.cart",
+      "targets": [
+        ["css=.cart", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa2aeb3e-1286-4838-ac64-928f3b2d3ba7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.cart > div",
+      "targets": [
+        ["css=.cart > div", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d42fee7-de7b-42e5-8588-ea8e56a54deb",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=RU",
+      "targets": [
+        ["linkText=RU", "linkText"],
+        ["css=.lang > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RU')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://balka-book.com/')])[3]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RU')]", "xpath:innerText"]
+      ],
+      "value": "RU"
+    }, {
+      "id": "a3c042cd-23a3-450f-b9db-9b3a85d3b7f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.lang > span",
+      "targets": [
+        ["css=.lang > span", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/div[7]/span", "xpath:idRelative"],
+        ["xpath=//div[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'UA')]", "xpath:innerText"]
+      ],
+      "value": "UA"
+    }]
+  }],
+  "suites": [{
+    "id": "e6fe25ce-2a3b-47ba-8d13-42479d4d9ee7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["90b3a8ef-7995-4b85-9dba-461cc1615110"]
+  }],
+  "urls": ["https://balka-book.com/ua/"],
+  "plugins": []
+}
